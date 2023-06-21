@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navigation Bar</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="aos-master/dist/aos.css" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Mirza:wght@600&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Libre+Baskerville:wght@400;700&family=Mirza:wght@600&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+
+    <!-- FOntAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#home" id="logo">PortFolio</a>
+      <i class="fas fa-bars" id="ham-menu"></i>
+      <ul id="nav-bar">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#skill" >Skill</a>
+        </li>
+        <li>
+          <a href="#project">Project</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="container">
+      <div class="row intro">
+        <div class="col-sm-6 main">
+          <h3>hello, I'm</h3>
+          <h1>Pranav kumar</h1>
+          <h3>full stack website Devloper</h3>
+          <button class="hireBtn">Hire me</button>
+          <button class="dwnBtn">Download CV</button>
+
+        </div>
+        <div class="col-sm-6"><img src="images/man.svg" alt="" width="300" height="350px
+                "></div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="about" class="container">
+    <div class="row">
+      <h2>ABOUT ME</h2>
+      <div class="col-sm-4"><img src="images/pranav pic.jpg" width="150px" height="170px" alt=""></div>
+      <div class="col-sm-8 para">
+        <h3>Pranav kumar</h3>
+        <h5>full stack java web developer</h5>
+        <p>I am pranav kumar completed my PG in MCA from RGPV university in 2023, after that i got training from Qspider Noida branch which is fully scholarship based training</p>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Skill -->
+
+  <section id="skill" class="container">
+    <div class="row">
+      <h2>SKILL</h2>
+      <div class="col-sm-6 rawSkill">
+        <h3>Soft Skill</h3>
+
+        <ul data-aos="fade-down"  data-aos-duration="1000">
+          <li data-aos="fade-left"  data-aos-duration="1000" >Photoshop</li>
+          <li>Video editing</li>
+          <li>Logo designing</li>
+          <li>MS Office</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 advSkill">
+        <h3>Advance Skill</h3>
+
+        <ul data-aos="fade-up"  data-aos-duration="1000">
+          <li data-aos="fade-right"  data-aos-duration="1000"> Languages: c, Java, Javascript</li>
+          <li> Databases: Oracle, Mysql</li>
+          <li> Web Technologies: HTML, CSS, Servlet, JSP</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="container">
+    <h2>PROJECTS</h2>
+
+    <div class="row">
+     
+      <div class="col-sm-6 minor" data-aos="fade-right"  data-aos-duration="1000">
+        <h3>Minor projects</h3>
+
+        <ul>
+         <a href="https://pranavkr175.github.io/Dice_game/"> <li>Dice game</li></a>
+         <a href="https://pranavkr175.github.io/VermaDigitalSolution/"> <li>Landing page</li></a>
+         <a href="https://pranavkr175.github.io/Pranav_poertfoilo/"> <li>portfolio website</li></a>
+         <a href="https://pranavkr175.github.io/piano/"> <li>piano webpage</li></a>
+        </ul>
+      </div>
+      <div class="col-sm-6 major" data-aos="fade-left"  data-aos-duration="1000">
+        <h3>Major Projects</h3>
+
+        <ul>
+          <li> Hospital management system</li>
+          <li> User Mangement System</li>
+          
+        </ul>
+      </div>
+    </div>
+    
+
+  </section>
+
+ 
+
+  <section class="container " id="contact">
+    <div class="row">
+      <div class="col-sm-6 map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14012.941264189923!2d77.29570687130023!3d28.592716609356035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce48b866af1ef%3A0x58913d62225c2c0!2sNew%20Ashok%20Nagar%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1687367858763!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-sm-6 form">
+        <form class="" action="mailto:pranavkr175@gmail.com " method="post" enctype="text/plain">
+          <h3>Contact us</h3>
+          <table>
+            <tr>
+              <td><label for="">Your name </label> </td>
+              <td><input type="text" name="Name" value="" style="margin: 10px;"><br></td>
+            </tr>
+
+            <tr>
+              <td><label for="">Your email </label> </td>
+              <td><input type="email" name="email" value="" style="margin: 10px;"><br></td>
+            </tr>
+
+            <tr>
+              <td><label for="">phone no. </label> </td>
+              <td><input type="text" name="mob" value="" style="margin: 10px;"><br></td>
+            </tr>
+
+            <tr>
+              <td><label for="">Your message </label> </td>
+              <td><textarea name="message" id="" cols="50" rows="7" style="margin: 10px;"></textarea><br></td>
+            </tr>
+          </table>
+          
+          <input type="submit" name="">
+        
+        
+        </form>
+        
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="container-fluid">
+    <div class="row footer">
+      
+      <div class="col-sm-4"><ul>
+      <li> <i class="fa-brands fa-instagram fa-xl" style="color: #f82ee7;"></i></li>
+      <li><a href="mailto:pranavkr175@gmail.com"><i class="fa-sharp fa-regular fa-envelope fa-xl" style="color: #f81b1b;"></i> </a></li>
+      <li><a href="https://www.facebook.com/pranavkr175"><i class="fa-brands fa-facebook fa-xl" style="color: #3a7cee;"></i></a></li></ul></div>
+
+      <div class="col-sm-4 copy">	&#169; Pranav Portfolio</div>
+      <div class="col-sm-4 "><div class="BottomBtn"><a href="#home"><img src="images/arrowBlue.png"  alt=""></a></div></div>
+    </div>
+  </section>
+
+
+  <!-- Script -->
+  <script src="js.js"></script>
+
+  <script src="aos-master/dist/aos.js"></script>
+
+  <script>
+      AOS.init({
+          
+      });
+  </script>
+
+
+<!-- Scroll down -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+     
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
+</body>
+
+</html>
