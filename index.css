@@ -329,6 +329,10 @@
  
 text-decoration: none;
 }
+.major ul a{
+ 
+text-decoration: none;
+}
 
 .minor ul li:hover{
   color: rgba(246, 7, 7, 0.759);
