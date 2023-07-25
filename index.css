@@ -339,22 +339,24 @@ text-decoration: none;
   font-size: 2rem;
 }
 
-.major ul{
+.major ul {
   padding: 20px;
-  border-radius: 70px 0 70px 0;
+  border-radius: 0px 70px 0px 70px;
   background-color: #e0fcfbdb;
   width: 70%;
   margin: auto;
 }
 
-.major ul li{
+.major ul li {
   list-style-type: none;
   font-size: 1.7rem;
+  /* line-height: 10px; */
   text-align: center;
-  font-family: 'Mirza', cursive;;
+  font-family: 'Mirza', cursive;
+  ;
   font-weight: bold;
   color: #38b5a3;
-  height: 50px;
+  height: 70px;
 }
 
 .major ul li:hover{
