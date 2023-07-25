@@ -340,13 +340,11 @@ text-decoration: none;
 }
 
 .major ul{
-  list-style-type: none;
-  font-size: 1.7rem;
-  line-height: 30px;
-  text-align: center;
-  font-family: 'Mirza', cursive;;
-  font-weight: bold;
-  color: #38b5a3;
+  padding: 20px;
+  border-radius: 70px 0 70px 0;
+  background-color: #e0fcfbdb;
+  width: 70%;
+  margin: auto;
 }
 
 .major ul li{
