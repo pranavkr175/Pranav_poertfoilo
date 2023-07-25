@@ -345,19 +345,18 @@ text-decoration: none;
   background-color: #e0fcfbdb;
   width: 70%;
   margin: auto;
-    box-sizing: border-box;
 }
 
 .major ul li {
   list-style-type: none;
   font-size: 1.7rem;
-/*   line-height: -10px; */
+  line-height: 30px;
   text-align: center;
   font-family: 'Mirza', cursive;
   ;
   font-weight: bold;
   color: #38b5a3;
-  
+
 }
 
 .major ul li:hover{
